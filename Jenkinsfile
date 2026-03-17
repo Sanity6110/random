@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: '<your repo url>'
+                git branch: 'main', url: 'git@github.com:Sanity6110/random.git'
             }
         }
         stage('Install Terraform') {
